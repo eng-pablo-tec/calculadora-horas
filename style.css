@@ -88,3 +88,14 @@ button:hover {
   font-weight: bold;
   color: #ffffff;
 }
+@media screen and (max-width: 600px) {
+  body {
+    transform: scale(1.4); /* Aumenta o "zoom" */
+    transform-origin: top center; /* Mantém centralizado no topo */
+  }
+
+  .card, .resultado {
+    width: 100%;
+    max-width: 90%;
+  }
+}
